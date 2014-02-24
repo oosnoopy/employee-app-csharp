@@ -20,7 +20,7 @@ namespace mainapp
 
         public int Age
         {
-           public get { return age; }
+           get { return age; }
            private set { age = value; }
         }
 
