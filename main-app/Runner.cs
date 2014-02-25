@@ -11,6 +11,8 @@ namespace mainapp
         public static void Main()
         {
             System.Console.WriteLine("This is a test");
+            System.Console.WriteLine(new Employee("Steven", "He"));
+            System.Console.ReadLine();
         }
     }
 }
