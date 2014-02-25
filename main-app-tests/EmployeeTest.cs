@@ -58,5 +58,12 @@ namespace mainapp
             Employee employee2 = new Employee("Jean", "Picard");
             Assert.AreNotEqual(employee, employee2);
         }
+
+        [TestCategory("Unit"),TestMethod]
+        public void TestEmplyeeWithMiddleName()
+        {
+            Employee employee = new Employee("James", "Krik", "Picard");
+            Assert.AreEqual(employee.GetMiddleName(), "Krik");
+        }
     }
 }
